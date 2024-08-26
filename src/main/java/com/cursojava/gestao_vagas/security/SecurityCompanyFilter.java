@@ -52,7 +52,4 @@ public class SecurityCompanyFilter extends OncePerRequestFilter{
         
         filterChain.doFilter(request, response);
     }
-
-
-
 }
